@@ -2,26 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.nav-btn {
+  border-top: 1.5px solid #3b3b3b;
+  border-left: 1.5px solid #3b3b3b;
+  border-right: 1.5px solid #3b3b3b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.hero-btn {
+  border-top: 1px solid #364c09;
+  border-left: 1px solid #364c09;
+  border-right: 1px solid #364c09;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+#emailForm {
+  margin-top: 30px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media only screen and (min-width: 768px) {
+  #emailForm {
+    margin-top: 50px;
   }
 }
