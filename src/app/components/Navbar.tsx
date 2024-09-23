@@ -2,11 +2,8 @@
 
 import Logo from "@/app/public/favicon-16x16.png";
 import Image from "next/image";
-import { useState } from "react";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   const toggleNavbar = () => {
     const navbar = document.getElementById("navbar-default");
     if (navbar) {
