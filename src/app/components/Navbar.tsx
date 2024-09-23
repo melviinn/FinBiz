@@ -1,6 +1,6 @@
 "use client";
 
-import Logo from "@/app/public/favicon-16x16.png";
+import Logo from "@/app/assets/favicon-16x16.png";
 import Image from "next/image";
 
 const Navbar = () => {

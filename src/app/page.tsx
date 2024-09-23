@@ -1,4 +1,4 @@
-import UsersAvatar from "@/app/public/users-avatar_upscaled.webp";
+import UsersAvatar from "@/app/assets/users-avatar_upscaled.webp";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import "./globals.css";
